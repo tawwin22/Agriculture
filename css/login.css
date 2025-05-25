@@ -1,0 +1,19 @@
+body {
+    background-image: url(../img/loginpic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#containerSize {
+    width: 350px;
+    background: rgba(255, 255, 255, 0.397);
+    backdrop-filter: blur(10px);
+    
+}

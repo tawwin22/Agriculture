@@ -1,0 +1,61 @@
+.oswald-font{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+
+#navigationbar{
+    position: sticky;
+    top:0;
+    z-index: 2;
+    background-color: whitesmoke;
+    border-bottom: 2px solid var(--mdb-divider-color);
+   }
+
+
+
+.nav-link {
+    color: black; /* Default text color */
+    transition: color .3s; /* Optional smooth transition */
+  }
+
+  .nav-link:hover {
+    color: rgb(41, 228, 41); /* Text color on hover */
+  }
+
+  #fontstyle{
+      font-family: "Chewy", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      
+  }
+
+#buttonColor{
+  background-color:#8B4513;
+}
+
+#footerColor{
+  background-color:#14532d;
+}
+
+.carousel-caption{
+  font-size: 20px;
+}
+
+.custom-carousel {
+  max-height: 500px; /* Or any height you prefer */
+  overflow: hidden;
+}
+
+.custom-carousel .carousel-inner,
+.custom-carousel .carousel-item,
+.custom-carousel .carousel-item img {
+  height: 500px;
+}
+
+.custom-carousel .carousel-item img {
+  object-fit: cover;
+  width: 100%;
+}
